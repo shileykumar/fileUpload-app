@@ -1,0 +1,78 @@
+	1. What is Transaction.
+	2. What is ACID property.
+	3. What is Transaction Propagation.
+	4. How to manage Transaction in Spring.
+	5. What is Lock in Java.
+	6. Synchronization Vs Lock.
+	7. What is Optimistic and Pessimistic Lock.
+	8. How to use Locking in Spring.
+	9. What is session management.
+	10. What is Statefull and  Stateless.
+	11. What is JWT.
+	12. What is API key.
+	13. Difference between Get and Post.
+	14. Difference between singleton object and companion object.
+	15. Flow of Rest API.
+	16. Explain Oauth2.
+	17. What is kafdrop.
+	18. What is big Data.
+	19. How to Clone an Array.
+	20. Write the Query for find the Second Highest Salary in SQL.
+	21. What is leader and follower.
+	22. Iterator vs ListIterator.
+	23. FailFast VS FailSafe Iterators.
+	24. What is the join() method.
+	25. notify() VS notifyAll() .
+	26. What is constructor Channing.
+	27. Statement VS Prepared Statement.
+	28. What is SQL injection.
+	29. What is CORS and CSRF.
+	30. Difference between String , StringBuilder and StringBuffer.
+	31. Checked exception VS Unchecked Exception.
+	32. Difference between final,finally and finalize.
+	33. throw VS throws.
+	34. Method Overloading VS Method Overriding.
+	35. Break VS continue.
+	36. Session VS SessionFactory.
+	37. What is Producer-Consumer problem, How to Resolve this .
+	38. What is Cache and its Advantages.
+	39. Working of JVM.
+	40. Delete VS truncate in SQL.
+	41. Why String is immutable in java.
+	42. What is Naming convention in java.
+	43.  Array VS ArrayList.
+	44. Set VS List.
+	45. HashMap VS Hashtable VS concurrentHashMap.
+	46. Why we Override hascode() and equal() method.
+	47. What are the Advantages of Hibernate over JDBC.
+	48. What is platform.
+	49. What is Garbage Collection in java.
+	50. What is Mark and Sweep and How its internally work.
+	51. What is ResultSet in JDBC.
+	52. What is Spring Boot.
+	53. What are JDBC Driver.
+	54. What is JDBC.
+	55. What is SQL.
+	56. What is Array.
+	57. What is String .
+	58. What do you mean by API.
+	59. What is byte-code.
+	60. What is Data.
+	61. What is Exception.
+	62. What are Exception  Handling Keywords.
+	63. What is Multithreading.
+	64. What is Variable.
+	65. What is the Schema.
+	66. RDBMS V/S DBMS
+	67. DDL VS DML.
+	68. Application Software VS System Software. 
+	69. What is Driver Manager Class.
+	70. How many steps are used to connect any java application using JDBC.
+	71. What happens when we compare two Strings objects if the value of one String is null.
+
+	String s1 = "xyz";
+	String s2 = "";
+	Sop(s1.compareTo(s2));
+	
+	72. What is SOLID principles.
+	73. GOF design patterns.
