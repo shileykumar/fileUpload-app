@@ -26,8 +26,9 @@ public class FileUploadController {
     @Value("${project.image}")
     private String path;
 
-    private
-    String fileName;
+    @Value("${file.size}")
+    private long fileSize;
+    private String fileName;
 
     private List<String> extensionArray = Arrays.asList( "png", "jpg","jpeg", "gif");
     @PostMapping("/upload")
@@ -35,6 +36,9 @@ public class FileUploadController {
         try {
             if (!extensionArray.contains(checkExtension(image.getOriginalFilename()))) {
                 return new ResponseEntity<>(new FileResponse(image.getOriginalFilename(), "Invalid file extension!"),HttpStatus.NOT_ACCEPTABLE);
+            }
+            if (image.getSize() > fileSize) {
+                return new ResponseEntity<>(new FileResponse(image.getOriginalFilename(), "Please upload file less then "+ (fileSize + 1) +"KB size"), HttpStatus.NOT_ACCEPTABLE);
             }
             fileName = fileService.upload(path,image);
 
